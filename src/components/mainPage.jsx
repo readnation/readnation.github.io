@@ -6,7 +6,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 import WorldMap from "@/components/ui/world-map";
 import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect"
-import { HeroHighlight, Highlight } from "@/components/ui/hero-highlight";
+import { Highlight } from "@/components/ui/hero-highlight";
 import { motion } from "motion/react";
 
 const navigation = [
