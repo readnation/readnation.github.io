@@ -495,39 +495,6 @@ export default function AboutPage() {
         </div>
 
 
-        {/* Team section */}
-            <div className="bg-white py-24 sm:py-32">
-            <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                <div className="mx-auto max-w-2xl sm:text-center">
-                <h2 className="text-4xl font-semibold tracking-tight text-balance text-sky-500 sm:text-5xl">
-                    Our Staff
-                </h2>
-                <p className="mt-6 text-lg/8 text-gray-600">
-                    They are getting fed. We promise.
-                </p>
-                </div>
-                <ul
-                role="list"
-                className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-6 gap-y-20 sm:grid-cols-2 lg:max-w-4xl lg:gap-x-8 xl:max-w-none"
-                >
-                {people.map((person) => (
-                    <li key={person.name} className="flex flex-col gap-6 xl:flex-row">
-                    <img
-                        alt=""
-                        src={person.imageUrl}
-                        className="aspect-4/5 w-52 flex-none rounded-2xl object-cover outline-1 -outline-offset-1 outline-black/5"
-                    />
-                    <div className="flex-auto">
-                        <h3 className="text-lg/8 font-semibold tracking-tight text-gray-900">{person.name}</h3>
-                        <p className="text-base/7 text-gray-600">{person.role}</p>
-                        <p className="mt-6 text-base/7 text-gray-600">{person.bio}</p>
-                    </div>
-                    </li>
-                ))}
-                </ul>
-            </div>
-            </div>
-
         {/* Services Bento */}
         {/* <div className="bg-white py-24 sm:py-32"> */}
       <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
@@ -634,6 +601,41 @@ export default function AboutPage() {
         </div>
       </div>
     {/* </div> */}
+
+        {/* Team section */}
+            <div className="bg-white py-24 sm:py-32">
+            <div className="mx-auto max-w-7xl px-6 lg:px-8">
+                <div className="mx-auto max-w-2xl sm:text-center">
+                <h2 className="text-4xl font-semibold tracking-tight text-balance text-sky-500 sm:text-5xl">
+                    Our Staff
+                </h2>
+                <p className="mt-6 text-lg/8 text-gray-600">
+                    They are getting fed. We promise.
+                </p>
+                </div>
+                <ul
+                role="list"
+                className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-6 gap-y-20 sm:grid-cols-2 lg:max-w-4xl lg:gap-x-8 xl:max-w-none"
+                >
+                {people.map((person) => (
+                    <li key={person.name} className="flex flex-col gap-6 xl:flex-row">
+                    <img
+                        alt=""
+                        src={person.imageUrl}
+                        className="aspect-4/5 w-52 flex-none rounded-2xl object-cover outline-1 -outline-offset-1 outline-black/5"
+                    />
+                    <div className="flex-auto">
+                        <h3 className="text-lg/8 font-semibold tracking-tight text-gray-900">{person.name}</h3>
+                        <p className="text-base/7 text-gray-600">{person.role}</p>
+                        <p className="mt-6 text-base/7 text-gray-600">{person.bio}</p>
+                    </div>
+                    </li>
+                ))}
+                </ul>
+            </div>
+            </div>
+
+
 
         {/* Values section */}
         {/* <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
