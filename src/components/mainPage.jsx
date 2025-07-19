@@ -256,7 +256,7 @@ export default function AboutPage() {
                 <span className="sr-only">Reading Nation</span>
                 <img
                   alt=""
-                  src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
+                  src="https://static.wixstatic.com/media/fb7015_434f5ddddf1e4071b1dea9450990d1bc~mv2.png/v1/fill/w_82,h_82,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/fb7015_434f5ddddf1e4071b1dea9450990d1bc~mv2.png"
                   className="h-8 w-auto"
                 />
               </a>
@@ -283,12 +283,12 @@ export default function AboutPage() {
                   ))}
                 </div>
                 <div className="py-6">
-                  <a
+                  {/* <a
                     href="#"
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                   >
                     Log in
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
