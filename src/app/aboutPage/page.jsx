@@ -5,6 +5,7 @@ import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 import WorldMap from "@/components/ui/world-map";
+import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect"
 
 const navigation = [
   { name: 'About', href: '#' },
@@ -18,19 +19,19 @@ const stats = [
 ]
 const values = [
   {
-    name: 'Increase Literacy',
+    name: 'Group Sessions',
     description:
-      'Aut illo quae. Ut et harum ea animi natus. Culpa maiores et sed sint et magnam exercitationem quia. Ullam voluptas nihil vitae dicta molestiae et. Aliquid velit porro vero.',
+      'We keep our class sizes small. It feels like a private lesson without the social anxiety.',
   },
   {
-    name: 'Always learning',
+    name: 'Individual Sessions',
     description:
-      'Aut repellendus et officiis dolor possimus. Deserunt velit quasi sunt fuga error labore quia ipsum. Commodi autem voluptatem nam. Quos voluptatem totam.',
+      'If you really want the 1-on-1, we offer those too.',
   },
   {
-    name: 'Be supportive',
+    name: 'Debate Office Hours',
     description:
-      'Magnam provident veritatis odit. Vitae eligendi repellat non. Eum fugit impedit veritatis ducimus. Non qui aspernatur laudantium modi. Praesentium rerum error deserunt harum.',
+      'Assorted help for all your debate needs, from drills to writing classes.',
   },
 ]
 const team = [
@@ -225,9 +226,9 @@ export default function Example() {
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="#" className="text-sm/6 font-semibold text-gray-900">
+            {/* <a href="#" className="text-sm/6 font-semibold text-gray-900">
               Log in <span aria-hidden="true">&rarr;</span>
-            </a>
+            </a> */}
           </div>
         </nav>
         <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">
@@ -314,7 +315,7 @@ export default function Example() {
                 clipPath:
                   'polygon(63.1% 29.5%, 100% 17.1%, 76.6% 3%, 48.4% 0%, 44.6% 4.7%, 54.5% 25.3%, 59.8% 49%, 55.2% 57.8%, 44.4% 57.2%, 27.8% 47.9%, 35.1% 81.5%, 0% 97.7%, 39.2% 100%, 35.2% 81.4%, 97.2% 52.8%, 63.1% 29.5%)',
               }}
-              className="aspect-801/1036 w-200.25 bg-linear-to-tr from-[#ff80b5] to-[#9089fc] opacity-30"
+              className="aspect-801/1036 w-200.25 bg-linear-to-tr from-[#00C3FF] to-[#8187c0] opacity-68.5"
             />
           </div>
           <div className="overflow-hidden">
@@ -322,6 +323,7 @@ export default function Example() {
               <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
                 <div className="relative w-full lg:max-w-xl lg:shrink-0 xl:max-w-2xl">
                   <h1 className="text-5xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-7xl">
+                    {/* <TypewriterEffectSmooth words={[{text: "Reading"}, {text: "Revolutionized"}]} /> */}
                     Reading Revolutionized
                   </h1>
                   <p className="mt-8 text-lg font-medium text-pretty text-gray-500 sm:max-w-md sm:text-xl/8 lg:max-w-none">
@@ -333,7 +335,7 @@ export default function Example() {
                     <div className="relative">
                       <img
                         alt=""
-                        src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80"
+                        src="https://static.wixstatic.com/media/fb7015_c45a64d548fa4370ac82c91fcef9f218~mv2.jpg/v1/fill/w_454,h_341,fp_0.50_0.50,q_90,enc_avif,quality_auto/fb7015_c45a64d548fa4370ac82c91fcef9f218~mv2.jpg"
                         className="aspect-2/3 w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-gray-900/10 ring-inset" />
@@ -343,7 +345,7 @@ export default function Example() {
                     <div className="relative">
                       <img
                         alt=""
-                        src="https://images.unsplash.com/photo-1485217988980-11786ced9454?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80"
+                        src="https://static.wixstatic.com/media/dcd8be_b7c45b371c56442e96116419141b84c0~mv2.png/v1/fill/w_454,h_341,fp_0.50_0.50,q_95,enc_avif,quality_auto/dcd8be_b7c45b371c56442e96116419141b84c0~mv2.png"
                         className="aspect-2/3 w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-gray-900/10 ring-inset" />
@@ -351,7 +353,7 @@ export default function Example() {
                     <div className="relative">
                       <img
                         alt=""
-                        src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-x=.4&w=396&h=528&q=80"
+                        src="https://static.wixstatic.com/media/dcd8be_1a94e649ec3a47abbb44f385db6bfb51~mv2.png/v1/fill/w_454,h_341,fp_0.50_0.50,q_95,enc_avif,quality_auto/dcd8be_1a94e649ec3a47abbb44f385db6bfb51~mv2.png"
                         className="aspect-2/3 w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-gray-900/10 ring-inset" />
@@ -361,7 +363,7 @@ export default function Example() {
                     <div className="relative">
                       <img
                         alt=""
-                        src="https://images.unsplash.com/photo-1670272504528-790c24957dda?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=left&w=400&h=528&q=80"
+                        src="https://static.wixstatic.com/media/dcd8be_91e4871467c94d77acfa03038738c599~mv2.png/v1/fill/w_454,h_341,fp_0.50_0.50,q_95,enc_avif,quality_auto/dcd8be_91e4871467c94d77acfa03038738c599~mv2.png"
                         className="aspect-2/3 w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-gray-900/10 ring-inset" />
@@ -369,7 +371,7 @@ export default function Example() {
                     <div className="relative">
                       <img
                         alt=""
-                        src="https://images.unsplash.com/photo-1670272505284-8faba1c31f7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80"
+                        src="https://static.wixstatic.com/media/dcd8be_350dcbb4c1ed4b30aeae0b8f56b0a490~mv2.jpg/v1/fill/w_454,h_341,fp_0.50_0.50,q_90,enc_avif,quality_auto/dcd8be_350dcbb4c1ed4b30aeae0b8f56b0a490~mv2.jpg"
                         className="aspect-2/3 w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-gray-900/10 ring-inset" />
@@ -456,10 +458,9 @@ export default function Example() {
         {/* Values section */}
         <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">Our values</h2>
+            <h2 className="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">We Keep Our Classes Small</h2>
             <p className="mt-6 text-lg/8 text-gray-600">
-              Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in
-              accusamus quisquam.
+              Our dedicated volunteers also lead small groups in which students read classic children's books. With class ratios at 4:1, we are dedicated to making reading more accessible to everyone.
             </p>
           </div>
           <dl className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 text-base/7 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3">
@@ -473,7 +474,7 @@ export default function Example() {
         </div>
 
         {/* Logo cloud */}
-        <div className="relative isolate -z-10 mt-32 sm:mt-48">
+        {/* <div className="relative isolate -z-10 mt-32 sm:mt-48">
           <div className="absolute inset-x-0 top-1/2 -z-10 flex -translate-y-1/2 justify-center overflow-hidden mask-[radial-gradient(50%_45%_at_50%_55%,white,transparent)]">
             <svg aria-hidden="true" className="h-160 w-7xl flex-none stroke-gray-200">
               <defs>
@@ -537,10 +538,10 @@ export default function Example() {
               />
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Team section */}
-        <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-48 lg:px-8">
+        {/* <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-48 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">Our team</h2>
             <p className="mt-6 text-lg/8 text-gray-600">
@@ -560,10 +561,10 @@ export default function Example() {
               </li>
             ))}
           </ul>
-        </div>
+        </div> */}
 
         {/* Blog section */}
-        <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
+        {/* <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
             <h2 className="text-4xl font-semibold tracking-tight text-balance text-gray-900 sm:text-5xl">
               From the blog
@@ -603,7 +604,7 @@ export default function Example() {
               </article>
             ))}
           </div>
-        </div>
+        </div> */}
       </main>
 
       {/* Footer */}
