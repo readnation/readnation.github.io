@@ -783,7 +783,7 @@ export default function AboutPage() {
             ))}
           </div>
           <p className="mt-10 text-center text-sm/6 text-gray-600">
-            &copy; 2024 Your Company, Inc. All rights reserved.
+            &copy; 2025 Read Nation Inc., a 501(c)(3) organization. All rights reserved.
           </p>
         </div>
       </footer>
