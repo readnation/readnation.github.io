@@ -214,7 +214,7 @@ export default function AboutPage() {
               <img
                 alt=""
                 src="https://static.wixstatic.com/media/fb7015_434f5ddddf1e4071b1dea9450990d1bc~mv2.png/v1/fill/w_82,h_82,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/fb7015_434f5ddddf1e4071b1dea9450990d1bc~mv2.png"
-                className="h-12 w-auto"
+                className="h-24 w-auto"
               />
             </a>
           </div>
