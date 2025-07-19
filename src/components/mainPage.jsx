@@ -41,38 +41,45 @@ const values = [
 const people = [
   {
     name: 'AIDEN TAN',
-    role: 'Chief Technology Officer',
+    role: 'Founder/Chief Technology Officer',
     imageUrl:
       'https://static.wixstatic.com/media/dcd8be_9071457cb5e8449286ccc10b80563d1e~mv2.png/v1/crop/x_0,y_681,w_1170,h_1170/fill/w_400,h_400,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Tan%2CAiden.png',
     bio: 'Aiden Tan is a freshman at the University of Illinois Urbana-Champaign, majoring in Electrical Engineering. A proud graduate of Stuyvesant High School, he has a strong passion for robotics and enjoys building Legos and model kits. In his leisure time, Aiden loves to travel and discover exotic foods from diverse cultures. Aiden is open to new ideas and embraces opportunities to improve his teaching in order to make the greatest impact.',
   },
   {
     name: 'MIKAYLA LIN ',
-    role: 'Chief Operating Officer',
+    role: 'Founder/Chief Operating Officer',
     imageUrl:
       'https://static.wixstatic.com/media/fb7015_515b5f9cc7474d3b9a815e1928666e84~mv2.jpg/v1/crop/x_102,y_0,w_537,h_537/fill/w_400,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_9537_edited.jpg',
     bio: 'Mikayla is a first-year student at Harvard University concentrating in Math and Physics where she is exploring her interests in topology, game theory, and black holes. At Harvard, she is involved in the Harvard MIT Math Tournament as community staff, where she helps run the event, building on her experience as Math Team Captain in high school and giving back to the math community. She is especially passionate about supporting girls in math—having started an annual math competition (GEMS) in order to connect girls across the city. Outside of academics, her favorite hobbies are puzzle hunting and competing with the Harvard Ballroom Dance Team, where she is learning how to waltz, foxtrot, and tango!',
   },
   {
     name: 'SAMANTHA TAN',
-    role: 'Chief Administrative Officer',
+    role: 'Founder/Chief Administrative Officer',
     imageUrl:
       'https://static.wixstatic.com/media/dcd8be_ab048629c2714d0486b4d4273b5056bd~mv2.jpg/v1/crop/x_0,y_360,w_2160,h_2160/fill/w_400,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Samantha.jpg',
     bio: 'Samantha Tan is a high-achieving junior passionate about healthcare and robotics. As the head of operations on her school&apos;s FIRST Robotics team (Techknights 334), she has mentored hundreds of students through her team. She has also raised thousands of dollars for her team through grantwriting, sponsorships, and fundraising events. She also shadows healthcare workers at an allergy clinic. Outside of academics, she loves to crochet, draw, and read.',
   },
   {
     name: 'THOMAS LIU',
-    role: 'Marketing Director',
+    role: 'Founder/Marketing Director',
     imageUrl:
       'https://static.wixstatic.com/media/dcd8be_a3b77fcee2cd4f049ece10efa83d3bb3~mv2.jpeg/v1/crop/x_0,y_360,w_1512,h_1512/fill/w_400,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/thomas.jpeg',
     bio: 'Thomas Liu lives in New Jersey, where he is a sophomore. He is interested in politics, and discovered debate at the onset of the pandemic. A determined, disciplined, and dedicated go-getter, Thomas quickly rose to become one of the top competitor in his school debate team.  His goal this year is to land a TOC bid in Kentucky.  A mathematics guru, he has also represented his school Math team in many competitions. Thomas has many interests and talents, including piano, violin, basketball and playing video games. His goal in life is to go into business and to make a real difference in the world.',
   },
     {
     name: 'DANIEL LIN',
-    role: 'Outreach Director',
+    role: 'Founder/Outreach Director',
     imageUrl:
       'https://static.wixstatic.com/media/dcd8be_77ff4bca1da34c34ad08c634a7bd5208~mv2.jpeg/v1/crop/x_18,y_0,w_252,h_252/fill/w_353,h_353,al_c,lg_1,q_80,enc_avif,quality_auto/daniel.jpeg',
-    bio: 'Daniel Lin attends Early Scholars Speech & Debate where he is one of the debate club’s top debaters. A natural leader, Daniel was President of his elementary school’s Student Council, and is currently captain of the Coding Club. While Daniel plays basketball and Minecraft in his leisure time, his favorite thing to do is read a good book. So if you’re ever looking to discuss a book, he’s the person to see. Daniel also loves math and music, and plays both the piano and the violin.  He takes pride in being well-articulated, enjoys lively debate and politics, and aspires to a future career as a lawyer.',
+    bio: 'Daniel Lin attends Early Scholars Speech & Debate where he is one of the debate club&apos;s top debaters. A natural leader, Daniel was President of his elementary school&apos;s Student Council, and is currently captain of the Coding Club. While Daniel plays basketball and Minecraft in his leisure time, his favorite thing to do is read a good book. So if you&apos;re ever looking to discuss a book, he&apos;s the person to see. Daniel also loves math and music, and plays both the piano and the violin.  He takes pride in being well-articulated, enjoys lively debate and politics, and aspires to a future career as a lawyer.',
+  },
+      {
+    name: 'JAYDEN CHEN',
+    role: 'Chess Education Director',
+    imageUrl:
+      'https://static.wixstatic.com/media/3b897c_f73a00bcfb09417f8d559733c1f0bb57~mv2.jpg/v1/crop/x_19,y_0,w_634,h_634/fill/w_400,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Jayden%20Chan_edited_edited.jpg',
+    bio: 'My name is Jayden Chan, and I am a sophomore at the Bronx High School of Science. I practice Brazilian Jiu-Jitsu, Muay Thai, basketball, saxophone, and the guitar. I enjoy playing chess, sharing my expertise and teaching others. I hope to pursue a career in chemical engineering in the future.',
   },
 ]
 
@@ -425,7 +432,7 @@ export default function AboutPage() {
                   Do you know what isn't?
                 </p>
                 <p className="mt-10 max-w-xl text-base/7 text-gray-700">
-                  Children reading. Not only does this impede their academic development, but it also deprives them of the many other benefits associated with reading: pleasure, social connectedness, and a more well-rounded perspective of the surrounding world. It is our privilege to help children acquire and hone critical literacy skills while also igniting in them a lifelong love of reading.
+                  Children reading. Not only does this impede their academic development, but it also deprives them of the many other benefits associated with reading: pleasure, social connectedness, and a more well-rounded perspective of the surrounding world.
                 </p>
               </div>
               <div className="lg:flex lg:flex-auto lg:justify-center">
@@ -492,11 +499,11 @@ export default function AboutPage() {
             <div className="bg-white py-24 sm:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl sm:text-center">
-                <h2 className="text-4xl font-semibold tracking-tight text-balance text-gray-900 sm:text-5xl">
-                    The Founders
+                <h2 className="text-4xl font-semibold tracking-tight text-balance text-sky-500 sm:text-5xl">
+                    Our Staff
                 </h2>
                 <p className="mt-6 text-lg/8 text-gray-600">
-                    Let's meet the people who make all this possible.
+                    They are getting fed. We promise.
                 </p>
                 </div>
                 <ul
@@ -521,10 +528,115 @@ export default function AboutPage() {
             </div>
             </div>
 
+        {/* Services Bento */}
+        {/* <div className="bg-white py-24 sm:py-32"> */}
+      <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
+        <h2 className="text-base/7 font-semibold text-sky-500">You have options</h2>
+        <p className="mt-2 max-w-lg text-4xl font-semibold tracking-tight text-pretty text-gray-950 sm:text-5xl">
+          We cater to all needs
+        </p>
+        <div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
+          <div className="relative lg:col-span-3">
+            <div className="absolute inset-0 rounded-lg bg-white max-lg:rounded-t-4xl lg:rounded-tl-4xl" />
+            <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] max-lg:rounded-t-[calc(2rem+1px)] lg:rounded-tl-[calc(2rem+1px)]">
+              <img
+                alt=""
+                src="https://static.wixstatic.com/media/dcd8be_3f41b3395930481fa93d126ddf07c48c~mv2.png/v1/fill/w_454,h_341,fp_0.50_0.50,q_95,enc_avif,quality_auto/dcd8be_3f41b3395930481fa93d126ddf07c48c~mv2.png"
+                className="h-80 object-cover object-left"
+              />
 
+              <div className="p-10 pt-4">
+                <h3 className="text-sm/4 font-semibold text-sky-500">Reading</h3>
+                <p className="mt-2 text-lg font-medium tracking-tight text-gray-950">For both the social and anti-socials</p>
+                <p className="mt-2 max-w-lg text-sm/6 text-gray-600">
+                    We offer top-of-line individual classes. Feeling socially anxious? Our small class sizes make group classes feel just like the one-on-ones.
+                </p>
+              </div>
+            </div>
+            <div className="pointer-events-none absolute inset-0 rounded-lg shadow-sm outline outline-black/5 max-lg:rounded-t-4xl lg:rounded-tl-4xl" />
+          </div>
+          <div className="relative lg:col-span-3">
+            <div className="absolute inset-0 rounded-lg bg-white lg:rounded-tr-4xl" />
+            <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] lg:rounded-tr-[calc(2rem+1px)]">
+              <img
+                alt=""
+                src="https://static.wixstatic.com/media/ad31c2_26253f685e50468fb33186ad8c50c9a1~mv2.png/v1/fill/w_441,h_341,fp_0.50_0.50,q_95,enc_avif,quality_auto/ad31c2_26253f685e50468fb33186ad8c50c9a1~mv2.png"
+                className="h-80 object-cover object-left lg:object-right"
+              />
+
+              <div className="p-10 pt-4">
+                <h3 className="text-sm/4 font-semibold text-sky-500">Debate Camp</h3>
+                <p className="mt-2 text-lg font-medium tracking-tight text-gray-950">For those who like to yap professionally</p>
+                <p className="mt-2 max-w-lg text-sm/6 text-gray-600">
+                    Assorted help for all your debate needs, from drills to writing classes.
+                </p>
+              </div>
+            </div>
+            <div className="pointer-events-none absolute inset-0 rounded-lg shadow-sm outline outline-black/5 lg:rounded-tr-4xl" />
+          </div>
+          <div className="relative lg:col-span-2">
+            <div className="absolute inset-0 rounded-lg bg-white lg:rounded-bl-4xl" />
+            <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] lg:rounded-bl-[calc(2rem+1px)]">
+              <img
+                alt=""
+                src="https://static.wixstatic.com/media/dcd8be_0270e7823d77401e99f3ab0d0be57278~mv2.jpg/v1/fill/w_454,h_341,fp_0.50_0.50,q_90,enc_avif,quality_auto/dcd8be_0270e7823d77401e99f3ab0d0be57278~mv2.jpg"
+                className="h-80 object-cover object-left"
+              />
+
+              <div className="p-10 pt-4">
+                <h3 className="text-sm/4 font-semibold text-sky-500">Robotics Outreach</h3>
+                <p className="mt-2 text-lg font-medium tracking-tight text-gray-950">Want to build things?</p>
+                <p className="mt-2 max-w-lg text-sm/6 text-gray-600">
+                    Coming soon!
+                </p>
+              </div>
+            </div>
+            <div className="pointer-events-none absolute inset-0 rounded-lg shadow-sm outline outline-black/5 lg:rounded-bl-4xl" />
+          </div>
+          <div className="relative lg:col-span-2">
+            <div className="absolute inset-0 rounded-lg bg-white" />
+            <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)]">
+              <img
+                alt=""
+                src="https://static.wixstatic.com/media/dcd8be_44fefb2bf5f14e7f8da204f54ff77fcf~mv2.png/v1/fill/w_454,h_341,fp_0.50_0.50,q_95,enc_avif,quality_auto/dcd8be_44fefb2bf5f14e7f8da204f54ff77fcf~mv2.png"
+                className="h-80 object-cover"
+              />
+
+              <div className="p-10 pt-4">
+                <h3 className="text-sm/4 font-semibold text-sky-500">Summer Sessions</h3>
+                <p className="mt-2 text-lg font-medium tracking-tight text-gray-950">Bored during the hottest months of the year?</p>
+                <p className="mt-2 max-w-lg text-sm/6 text-gray-600">
+                  They will be 4 days a week, from Mondays to Thursdays. Both individual and group sessions will be offered over the summer.
+                </p>
+              </div>
+            </div>
+            <div className="pointer-events-none absolute inset-0 rounded-lg shadow-sm outline outline-black/5" />
+          </div>
+          <div className="relative lg:col-span-2">
+            <div className="absolute inset-0 rounded-lg bg-white max-lg:rounded-b-4xl lg:rounded-br-4xl" />
+            <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] max-lg:rounded-b-[calc(2rem+1px)] lg:rounded-br-[calc(2rem+1px)]">
+              <img
+                alt=""
+                src="https://static.wixstatic.com/media/dcd8be_727b64ab002a46838ba62981c7eb83da~mv2.png/v1/fill/w_454,h_341,fp_0.50_0.50,q_95,enc_avif,quality_auto/dcd8be_727b64ab002a46838ba62981c7eb83da~mv2.png"
+                className="h-80 object-cover"
+              />
+
+              <div className="p-10 pt-4">
+                <h3 className="text-sm/4 font-semibold text-sky-500">More to come!</h3>
+                <p className="mt-2 text-lg font-medium tracking-tight text-gray-950">Get excited</p>
+                <p className="mt-2 max-w-lg text-sm/6 text-gray-600">
+                  We have so many more planned in the future.
+                </p>
+              </div>
+            </div>
+            <div className="pointer-events-none absolute inset-0 rounded-lg shadow-sm outline outline-black/5 max-lg:rounded-b-4xl lg:rounded-br-4xl" />
+          </div>
+        </div>
+      </div>
+    {/* </div> */}
 
         {/* Values section */}
-        <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
+        {/* <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">We Keep Our Classes Small</h2>
             <p className="mt-6 text-lg/8 text-gray-600">
@@ -539,7 +651,7 @@ export default function AboutPage() {
               </div>
             ))}
           </dl>
-        </div>
+        </div> */}
 
         {/* Logo cloud */}
         {/* <div className="relative isolate -z-10 mt-32 sm:mt-48">
