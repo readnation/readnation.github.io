@@ -70,7 +70,7 @@ Read Nation is expanding our reach to the Maasai tribe in Tanzania. With this pa
           />
         </div>
       </div>
-      <div className="mx-auto max-w-7xl p-24">
+      <div className="mx-auto items-center justify-center p-2">
         <ArchiveVideo />
         <p className="m-auto text-center text-sm font-medium text-pretty text-gray-500 pt-6 sm:text-lg">
                   
