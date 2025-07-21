@@ -6,6 +6,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 import Header from "@/components/header";
 import Footer from "@/components/footer";
+import ArchiveVideo from "@/components/video";
 
 export default function maasaiPage() {
 
@@ -68,6 +69,13 @@ Read Nation is expanding our reach to the Maasai tribe in Tanzania. With this pa
             className="aspect-3/2 object-cover lg:aspect-auto lg:size-full"
           />
         </div>
+      </div>
+      <div className="mx-auto max-w-7xl p-24">
+        <ArchiveVideo />
+        <p className="m-auto text-center text-sm font-medium text-pretty text-gray-500 pt-6 sm:text-lg">
+                  
+A video from our recent efforts.
+                </p>
       </div>
       <Footer />
     </div>

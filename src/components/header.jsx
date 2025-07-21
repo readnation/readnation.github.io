@@ -40,7 +40,7 @@ export default function Header() {
             <img
               alt=""
               src="https://static.wixstatic.com/media/fb7015_434f5ddddf1e4071b1dea9450990d1bc~mv2.png/v1/fill/w_82,h_82,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/fb7015_434f5ddddf1e4071b1dea9450990d1bc~mv2.png"
-              className="h-10 w-auto"
+              className="h-18 w-auto"
             />
           </a>
         </div>
@@ -107,7 +107,7 @@ export default function Header() {
             Join Us
           </a> */}
           <a
-            href="#"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfT5xTRo1Gy9cIMrhD0QsyTDgipBouSuCkxqWt9abdY67OMRg/viewform?embedded=true"
             className="rounded-md bg-sky-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >
             Join Us
@@ -185,7 +185,7 @@ export default function Header() {
               </div>
               <div className="py-6">
                   <a
-                    href="#"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSfT5xTRo1Gy9cIMrhD0QsyTDgipBouSuCkxqWt9abdY67OMRg/viewform?embedded=true"
                     className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                   >
                     Join Us

@@ -7,6 +7,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import WorldMap from "@/components/ui/world-map";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
+import CTA from "@/components/CTA";
 
 import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect"
 import { Highlight } from "@/components/ui/hero-highlight";
@@ -190,8 +191,8 @@ export default function mainPage() {
                   <h1 className="text-5xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-7xl">
                     {/* <TypewriterEffectSmooth words={[{text: "Reading"}, {text: "Revolutionized"}]} /> */}
                     Reading<br />
-                    {/* <HeroHighlight>
-                        <motion.h1
+                    {/* <HeroHighlight> */}
+                        {/* <motion.h1
                             initial={{
                             opacity: 0,
                             y: 20,
@@ -210,8 +211,8 @@ export default function mainPage() {
                             <Highlight className="text-black text-5xl font-semibold leading-normal tracking-tight text-pretty text-gray-900 sm:text-7xl">
                             Revolutionized
                             </Highlight>
-                        {/* </motion.h1>
-                    </HeroHighlight> */}
+                        {/* </motion.h1> */}
+                    {/* </HeroHighlight> */}
                   </h1>
                   <p className="mt-8 text-lg font-medium text-pretty text-gray-500 sm:max-w-md sm:text-xl/8 lg:max-w-none">
                     Every child should have the opportunity to discover the joy of reading. We harness the power of the internet to make our reading program accessible to children all over the world. 
@@ -613,9 +614,10 @@ export default function mainPage() {
           </div>
         </div> */}
       </main>
+      <CTA />
 
       {/* Footer */}
-        <Footer />
+      <Footer />
       {/* <footer className="mt-16 sm:mt-32">
         <div className="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
           <nav aria-label="Footer" className="-mb-6 flex flex-wrap justify-center gap-x-12 gap-y-3 text-sm/6">
