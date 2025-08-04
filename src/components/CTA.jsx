@@ -7,7 +7,7 @@ export default function CTA() {
             Want to help more children read?
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-lg/8 text-pretty text-gray-600">
-            Any amount will be allocated directly to the charity and supporting any of our multiple projects.
+            We offer a large range of services from academic tutoring to chess training to debate camp!
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <a

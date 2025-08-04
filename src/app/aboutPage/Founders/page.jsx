@@ -43,13 +43,6 @@ const people = [
       'https://static.wixstatic.com/media/dcd8be_77ff4bca1da34c34ad08c634a7bd5208~mv2.jpeg/v1/crop/x_18,y_0,w_252,h_252/fill/w_353,h_353,al_c,lg_1,q_80,enc_avif,quality_auto/daniel.jpeg',
     bio: 'Daniel Lin attends Early Scholars Speech & Debate where he is one of the debate club&apos;s top debaters. A natural leader, Daniel was President of his elementary school&apos;s Student Council, and is currently captain of the Coding Club. While Daniel plays basketball and Minecraft in his leisure time, his favorite thing to do is read a good book. So if you&apos;re ever looking to discuss a book, he&apos;s the person to see. Daniel also loves math and music, and plays both the piano and the violin.  He takes pride in being well-articulated, enjoys lively debate and politics, and aspires to a future career as a lawyer.',
   },
-      {
-    name: 'JAYDEN CHEN',
-    role: 'Chess Education Director',
-    imageUrl:
-      'https://static.wixstatic.com/media/3b897c_f73a00bcfb09417f8d559733c1f0bb57~mv2.jpg/v1/crop/x_19,y_0,w_634,h_634/fill/w_400,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Jayden%20Chan_edited_edited.jpg',
-    bio: 'My name is Jayden Chan, and I am a sophomore at the Bronx High School of Science. I practice Brazilian Jiu-Jitsu, Muay Thai, basketball, saxophone, and the guitar. I enjoy playing chess, sharing my expertise and teaching others. I hope to pursue a career in chemical engineering in the future.',
-  },
 ]
 
 export default function AboutPage() {
@@ -78,7 +71,7 @@ export default function AboutPage() {
                     <img
                         alt=""
                         src={person.imageUrl}
-                        className="aspect-4/5 w-52 flex-none rounded-2xl object-cover outline-1 -outline-offset-1 outline-black/5"
+                        className="aspect-7/8 w-74 flex-none rounded-2xl object-cover outline-1 -outline-offset-1 outline-black/5"
                     />
                     <div className="flex-auto">
                         <h3 className="text-lg/8 font-semibold tracking-tight text-gray-900">{person.name}</h3>

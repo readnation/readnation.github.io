@@ -72,8 +72,8 @@ const footerNavigation = {
 export default function Footer(){
     return (
         <div>
-            <footer className="mt-16 sm:mt-32">
-                <div className="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
+            <footer className="mt-6 sm:mt-8">
+                <div className="mx-auto max-w-7xl overflow-hidden px-6 py-10 sm:py-12 lg:px-8">
                 <nav aria-label="Footer" className="-mb-6 flex flex-wrap justify-center gap-x-12 gap-y-3 text-sm/6">
                     {footerNavigation.main.map((item) => (
                     <a key={item.name} href={item.href} className="text-gray-600 hover:text-gray-900">

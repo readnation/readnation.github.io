@@ -147,7 +147,7 @@ export default function mainPage() {
       <Header />
       <main className="isolate">
         {/* Hero section */}
-        <div className="relative isolate -z-10">
+        <div className="relative isolate -z-10 pb-4">
           <svg
             aria-hidden="true"
             className="absolute inset-x-0 top-0 -z-10 h-256 w-full mask-[radial-gradient(32rem_32rem_at_center,white,transparent)] stroke-gray-200"
@@ -190,7 +190,7 @@ export default function mainPage() {
                 <div className="relative w-full lg:max-w-xl lg:shrink-0 xl:max-w-2xl">
                   <h1 className="text-5xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-7xl">
                     {/* <TypewriterEffectSmooth words={[{text: "Reading"}, {text: "Revolutionized"}]} /> */}
-                    Reading<br />
+                    Reading<br /> Revolutionized
                     {/* <HeroHighlight> */}
                         {/* <motion.h1
                             initial={{
@@ -207,10 +207,10 @@ export default function mainPage() {
                             }}
                             className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
                         > */}
-                        {" "}
+                        {/* {" "}
                             <Highlight className="text-black text-5xl font-semibold leading-normal tracking-tight text-pretty text-gray-900 sm:text-7xl">
                             Revolutionized
-                            </Highlight>
+                            </Highlight> */}
                         {/* </motion.h1> */}
                     {/* </HeroHighlight> */}
                   </h1>

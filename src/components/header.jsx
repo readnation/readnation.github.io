@@ -33,14 +33,14 @@ export default function Header() {
 
   return (
     <header className="bg-white">
-      <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
+      <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-12">
         <div className="flex lg:flex-1">
           <a href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Read Nation</span>
             <img
               alt=""
               src="https://static.wixstatic.com/media/fb7015_434f5ddddf1e4071b1dea9450990d1bc~mv2.png/v1/fill/w_82,h_82,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/fb7015_434f5ddddf1e4071b1dea9450990d1bc~mv2.png"
-              className="h-18 w-auto"
+              className="h-12 w-auto"
             />
           </a>
         </div>
@@ -107,7 +107,8 @@ export default function Header() {
             Join Us
           </a> */}
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSfT5xTRo1Gy9cIMrhD0QsyTDgipBouSuCkxqWt9abdY67OMRg/viewform?embedded=true"
+            // href="https://docs.google.com/forms/d/e/1FAIpQLSfT5xTRo1Gy9cIMrhD0QsyTDgipBouSuCkxqWt9abdY67OMRg/viewform?embedded=true"
+            href="/form"
             className="rounded-md bg-sky-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >
             Join Us
