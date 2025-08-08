@@ -189,30 +189,7 @@ export default function mainPage() {
               <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
                 <div className="relative w-full lg:max-w-xl lg:shrink-0 xl:max-w-2xl">
                   <h1 className="text-5xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-7xl">
-                    {/* <TypewriterEffectSmooth words={[{text: "Reading"}, {text: "Revolutionized"}]} /> */}
                     Reading<br /> Revolutionized
-                    {/* <HeroHighlight> */}
-                        {/* <motion.h1
-                            initial={{
-                            opacity: 0,
-                            y: 20,
-                            }}
-                            animate={{
-                            opacity: 1,
-                            y: [20, -5, 0],
-                            }}
-                            transition={{
-                            duration: 0.5,
-                            ease: [0.4, 0.0, 0.2, 1],
-                            }}
-                            className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
-                        > */}
-                        {/* {" "}
-                            <Highlight className="text-black text-5xl font-semibold leading-normal tracking-tight text-pretty text-gray-900 sm:text-7xl">
-                            Revolutionized
-                            </Highlight> */}
-                        {/* </motion.h1> */}
-                    {/* </HeroHighlight> */}
                   </h1>
                   <p className="mt-8 text-lg font-medium text-pretty text-gray-500 sm:max-w-md sm:text-xl/8 lg:max-w-none">
                     Every child should have the opportunity to discover the joy of reading. We harness the power of the internet to make our reading program accessible to children all over the world. 
@@ -300,11 +277,6 @@ export default function mainPage() {
 
         {/* Image section */}
         <div className="mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8">
-          {/* <img
-            alt=""
-            src="https://static.wixstatic.com/media/ad31c2_9c350f1d27664ac9b7751d0681fa8d26~mv2.png/v1/fill/w_720,h_407,al_c,lg_1,q_85,enc_avif,quality_auto/ad31c2_9c350f1d27664ac9b7751d0681fa8d26~mv2.png"
-            className="aspect-5/2 w-full object-cover xl:rounded-3xl"
-          /> */}
           <WorldMap 
               dots={[
             {
@@ -449,197 +421,9 @@ export default function mainPage() {
           </div>
         </div>
       </div>
-    {/* </div> */}
-
-        {/* Team section */}
-            {/* <div className="bg-white py-24 sm:py-32">
-            <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                <div className="mx-auto max-w-2xl sm:text-center">
-                <h2 className="text-4xl font-semibold tracking-tight text-balance text-sky-500 sm:text-5xl">
-                    Our Staff
-                </h2>
-                <p className="mt-6 text-lg/8 text-gray-600">
-                    They are getting fed. We promise.
-                </p>
-                </div>
-                <ul
-                role="list"
-                className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-6 gap-y-20 sm:grid-cols-2 lg:max-w-4xl lg:gap-x-8 xl:max-w-none"
-                >
-                {people.map((person) => (
-                    <li key={person.name} className="flex flex-col gap-6 xl:flex-row">
-                    <img
-                        alt=""
-                        src={person.imageUrl}
-                        className="aspect-4/5 w-52 flex-none rounded-2xl object-cover outline-1 -outline-offset-1 outline-black/5"
-                    />
-                    <div className="flex-auto">
-                        <h3 className="text-lg/8 font-semibold tracking-tight text-gray-900">{person.name}</h3>
-                        <p className="text-base/7 text-gray-600">{person.role}</p>
-                        <p className="mt-6 text-base/7 text-gray-600">{person.bio}</p>
-                    </div>
-                    </li>
-                ))}
-                </ul>
-            </div>
-            </div> */}
-
-
-
-        {/* Values section */}
-        {/* <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
-          <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">We Keep Our Classes Small</h2>
-            <p className="mt-6 text-lg/8 text-gray-600">
-              Our dedicated volunteers also lead small groups in which students read classic children's books. With class ratios at 4:1, we are dedicated to making reading more accessible to everyone.
-            </p>
-          </div>
-          <dl className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 text-base/7 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-            {values.map((value) => (
-              <div key={value.name}>
-                <dt className="font-semibold text-gray-900">{value.name}</dt>
-                <dd className="mt-1 text-gray-600">{value.description}</dd>
-              </div>
-            ))}
-          </dl>
-        </div> */}
-
-        {/* Logo cloud */}
-        {/* <div className="relative isolate -z-10 mt-32 sm:mt-48">
-          <div className="absolute inset-x-0 top-1/2 -z-10 flex -translate-y-1/2 justify-center overflow-hidden mask-[radial-gradient(50%_45%_at_50%_55%,white,transparent)]">
-            <svg aria-hidden="true" className="h-160 w-7xl flex-none stroke-gray-200">
-              <defs>
-                <pattern
-                  x="50%"
-                  y="50%"
-                  id="e9033f3e-f665-41a6-84ef-756f6778e6fe"
-                  width={200}
-                  height={200}
-                  patternUnits="userSpaceOnUse"
-                  patternTransform="translate(-100 0)"
-                >
-                  <path d="M.5 200V.5H200" fill="none" />
-                </pattern>
-              </defs>
-              <svg x="50%" y="50%" className="overflow-visible fill-gray-50">
-                <path d="M-300 0h201v201h-201Z M300 200h201v201h-201Z" strokeWidth={0} />
-              </svg>
-              <rect fill="url(#e9033f3e-f665-41a6-84ef-756f6778e6fe)" width="100%" height="100%" strokeWidth={0} />
-            </svg>
-          </div>
-          <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <h2 className="text-center text-lg/8 font-semibold text-gray-900">
-              Trusted by the world’s most innovative teams
-            </h2>
-            <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
-              <img
-                alt="Transistor"
-                src="https://tailwindcss.com/plus-assets/img/logos/158x48/transistor-logo-gray-900.svg"
-                width={158}
-                height={48}
-                className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-              />
-              <img
-                alt="Reform"
-                src="https://tailwindcss.com/plus-assets/img/logos/158x48/reform-logo-gray-900.svg"
-                width={158}
-                height={48}
-                className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-              />
-              <img
-                alt="Tuple"
-                src="https://tailwindcss.com/plus-assets/img/logos/158x48/tuple-logo-gray-900.svg"
-                width={158}
-                height={48}
-                className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-              />
-              <img
-                alt="SavvyCal"
-                src="https://tailwindcss.com/plus-assets/img/logos/158x48/savvycal-logo-gray-900.svg"
-                width={158}
-                height={48}
-                className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
-              />
-              <img
-                alt="Statamic"
-                src="https://tailwindcss.com/plus-assets/img/logos/158x48/statamic-logo-gray-900.svg"
-                width={158}
-                height={48}
-                className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-              />
-            </div>
-          </div>
-        </div> */}
-
-        {/* Blog section */}
-        {/* <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
-          <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
-            <h2 className="text-4xl font-semibold tracking-tight text-balance text-gray-900 sm:text-5xl">
-              From the blog
-            </h2>
-            <p className="mt-2 text-lg/8 text-gray-600">Learn how to grow your business with our expert advice.</p>
-          </div>
-          <div className="mx-auto mt-16 grid max-w-2xl auto-rows-fr grid-cols-1 gap-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-            {blogPosts.map((post) => (
-              <article
-                key={post.id}
-                className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-gray-900 px-8 pt-80 pb-8 sm:pt-48 lg:pt-80"
-              >
-                <img alt="" src={post.imageUrl} className="absolute inset-0 -z-10 size-full object-cover" />
-                <div className="absolute inset-0 -z-10 bg-linear-to-t from-gray-900 via-gray-900/40" />
-                <div className="absolute inset-0 -z-10 rounded-2xl ring-1 ring-gray-900/10 ring-inset" />
-
-                <div className="flex flex-wrap items-center gap-y-1 overflow-hidden text-sm/6 text-gray-300">
-                  <time dateTime={post.datetime} className="mr-8">
-                    {post.date}
-                  </time>
-                  <div className="-ml-4 flex items-center gap-x-4">
-                    <svg viewBox="0 0 2 2" className="-ml-0.5 size-0.5 flex-none fill-white/50">
-                      <circle r={1} cx={1} cy={1} />
-                    </svg>
-                    <div className="flex gap-x-2.5">
-                      <img alt="" src={post.author.imageUrl} className="size-6 flex-none rounded-full bg-white/10" />
-                      {post.author.name}
-                    </div>
-                  </div>
-                </div>
-                <h3 className="mt-3 text-lg/6 font-semibold text-white">
-                  <a href={post.href}>
-                    <span className="absolute inset-0" />
-                    {post.title}
-                  </a>
-                </h3>
-              </article>
-            ))}
-          </div>
-        </div> */}
       </main>
       <CTA />
-
-      {/* Footer */}
       <Footer />
-      {/* <footer className="mt-16 sm:mt-32">
-        <div className="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
-          <nav aria-label="Footer" className="-mb-6 flex flex-wrap justify-center gap-x-12 gap-y-3 text-sm/6">
-            {footerNavigation.main.map((item) => (
-              <a key={item.name} href={item.href} className="text-gray-600 hover:text-gray-900">
-                {item.name}
-              </a>
-            ))}
-          </nav>
-          <div className="mt-16 flex justify-center gap-x-10">
-            {footerNavigation.social.map((item) => (
-              <a key={item.name} href={item.href} className="text-gray-600 hover:text-gray-800">
-                <span className="sr-only">{item.name}</span>
-                <item.icon aria-hidden="true" className="size-6" />
-              </a>
-            ))}
-          </div>
-          <p className="mt-10 text-center text-sm/6 text-gray-600">
-            &copy; 2025 Read Nation Inc., a 501(c)(3) organization. All rights reserved.
-          </p>
-        </div>
-      </footer> */}
     </div>
   )
 }
