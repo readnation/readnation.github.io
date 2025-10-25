@@ -59,7 +59,7 @@ export default function AboutPage() {
                     Founders
                 </h2>
                 <p className="mt-6 text-lg/8 text-gray-600">
-                    They are getting fed. We promise.
+                    Meet the founders.
                 </p>
                 </div>
                 <ul

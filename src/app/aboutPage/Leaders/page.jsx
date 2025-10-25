@@ -80,7 +80,7 @@ export default function AboutPage() {
                     Leadership
                 </h2>
                 <p className="mt-6 text-lg/8 text-gray-600">
-                    They too are getting fed, just slightly less.
+                    Meet the current leaders of ReadNation.
                 </p>
                 </div>
                 <ul
