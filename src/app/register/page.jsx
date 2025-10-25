@@ -23,7 +23,7 @@ export default function formPage(){
               <iframe
                 src="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfT5xTRo1Gy9cIMrhD0QsyTDgipBouSuCkxqWt9abdY67OMRg/formResponse?embedded=true"
                 width="100%"
-                height="100%"
+                height="2000"
                 className="rounded-lg h-150"
                 title="Registration"
               >
