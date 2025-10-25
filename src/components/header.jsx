@@ -108,7 +108,7 @@ export default function Header() {
           </a> */}
           <a
             // href="https://docs.google.com/forms/d/e/1FAIpQLSfT5xTRo1Gy9cIMrhD0QsyTDgipBouSuCkxqWt9abdY67OMRg/viewform?embedded=true"
-            href="/form"
+            href="/register"
             className="rounded-md bg-sky-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >
             Join Us

@@ -15,7 +15,7 @@ export default function formPage(){
                     Join Us!
                 </h2>
                 <p className="mt-6 text-lg/8 text-gray-600">
-                    We needs more people like you to help keep us running
+                    We need more people like you to help keep us running!
                 </p>
                 </div>
           <div className="flex justify-center items-center h-3/4">
@@ -23,7 +23,7 @@ export default function formPage(){
               <iframe
                 src="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfT5xTRo1Gy9cIMrhD0QsyTDgipBouSuCkxqWt9abdY67OMRg/formResponse?embedded=true"
                 width="100%"
-                height="600"
+                height="100%"
                 className="rounded-lg h-150"
                 title="Registration"
               >
