@@ -13,7 +13,7 @@ const people = [
     role: 'Founder/Chief Technology Officer',
     imageUrl:
       'https://static.wixstatic.com/media/dcd8be_9071457cb5e8449286ccc10b80563d1e~mv2.png/v1/crop/x_0,y_681,w_1170,h_1170/fill/w_400,h_400,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Tan%2CAiden.png',
-    bio: 'Aiden Tan is a freshman at the University of Illinois Urbana-Champaign, majoring in Electrical Engineering. A proud graduate of Stuyvesant High School, he has a strong passion for robotics and enjoys building Legos and model kits. In his leisure time, Aiden loves to travel and discover exotic foods from diverse cultures. Aiden is open to new ideas and embraces opportunities to improve his teaching in order to make the greatest impact.',
+    bio: 'Aiden Tan is a sophomore at the University of Illinois Urbana-Champaign, majoring in Electrical Engineering. A proud graduate of Stuyvesant High School, he has a strong passion for robotics and enjoys building Legos and model kits. In his leisure time, Aiden loves to travel and discover exotic foods from diverse cultures. Aiden is open to new ideas and embraces opportunities to improve his teaching in order to make the greatest impact.',
   },
   {
     name: 'MIKAYLA LIN ',
@@ -27,7 +27,7 @@ const people = [
     role: 'Founder/Chief Administrative Officer',
     imageUrl:
       'https://static.wixstatic.com/media/dcd8be_ab048629c2714d0486b4d4273b5056bd~mv2.jpg/v1/crop/x_0,y_360,w_2160,h_2160/fill/w_400,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Samantha.jpg',
-    bio: 'Samantha Tan is a high-achieving junior passionate about healthcare and robotics. As the head of operations on her school&apos;s FIRST Robotics team (Techknights 334), she has mentored hundreds of students through her team. She has also raised thousands of dollars for her team through grantwriting, sponsorships, and fundraising events. She also shadows healthcare workers at an allergy clinic. Outside of academics, she loves to crochet, draw, and read.',
+    bio: "Samantha Tan is a high-achieving junior passionate about healthcare and robotics. As the captain and head of operations on her school's FIRST Robotics team (Techknights 334), she has mentored her peers and exposed hundreds of students in underserved communities to STEM. She has also raised thousands of dollars for her team through grant writing, sponsorships, and fundraising events. She also shadows healthcare workers at an allergy clinic. Outside of academics, she loves to crochet, draw, and read.",
   },
   {
     name: 'THOMAS LIU',
