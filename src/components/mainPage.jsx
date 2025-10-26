@@ -200,7 +200,8 @@ export default function mainPage() {
                     <div className="relative">
                       <img
                         alt=""
-                        src="https://static.wixstatic.com/media/fb7015_c45a64d548fa4370ac82c91fcef9f218~mv2.jpg/v1/fill/w_454,h_341,fp_0.50_0.50,q_90,enc_avif,quality_auto/fb7015_c45a64d548fa4370ac82c91fcef9f218~mv2.jpg"
+                        //src="https://static.wixstatic.com/media/fb7015_c45a64d548fa4370ac82c91fcef9f218~mv2.jpg/v1/fill/w_454,h_341,fp_0.50_0.50,q_90,enc_avif,quality_auto/fb7015_c45a64d548fa4370ac82c91fcef9f218~mv2.jpg"
+                        src="/photos/ReadNationEvent_IMG_1745.jpg"
                         className="aspect-2/3 w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-gray-900/10 ring-inset" />
@@ -228,7 +229,8 @@ export default function mainPage() {
                     <div className="relative">
                       <img
                         alt=""
-                        src="https://static.wixstatic.com/media/dcd8be_91e4871467c94d77acfa03038738c599~mv2.png/v1/fill/w_454,h_341,fp_0.50_0.50,q_95,enc_avif,quality_auto/dcd8be_91e4871467c94d77acfa03038738c599~mv2.png"
+                        //src="https://static.wixstatic.com/media/dcd8be_91e4871467c94d77acfa03038738c599~mv2.png/v1/fill/w_454,h_341,fp_0.50_0.50,q_95,enc_avif,quality_auto/dcd8be_91e4871467c94d77acfa03038738c599~mv2.png"
+                        src="/photos/ReadNationEvent_IMG_1744.jpg"
                         className="aspect-2/3 w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-gray-900/10 ring-inset" />
