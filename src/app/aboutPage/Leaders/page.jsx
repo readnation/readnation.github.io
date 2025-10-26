@@ -15,13 +15,7 @@ const people = [
       'https://static.wixstatic.com/media/dcd8be_3f41b3395930481fa93d126ddf07c48c~mv2.png/v1/fill/w_400,h_400,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ReadNationLogo.png',
     bio: 'Details Coming Soon',
   },
-  {
-    name: 'DANIEL LIN',
-    role: 'Debate Outreach Coordinator',
-    imageUrl:
-      'https://static.wixstatic.com/media/dcd8be_3f41b3395930481fa93d126ddf07c48c~mv2.png/v1/fill/w_400,h_400,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ReadNationLogo.png',
-    bio: 'Details Coming Soon',
-  },
+
   {
     name: 'JAYDEN CHEN',
     role: 'Chess Education Director',
@@ -36,28 +30,15 @@ const people = [
       'https://static.wixstatic.com/media/dcd8be_3f41b3395930481fa93d126ddf07c48c~mv2.png/v1/fill/w_400,h_400,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ReadNationLogo.png',
     bio: 'Details Coming Soon',
   },
+
   {
-    name: 'SAMANTHA TAN',
-    role: 'Debate Outreach Coordinator',
-    imageUrl:
-      'https://static.wixstatic.com/media/dcd8be_3f41b3395930481fa93d126ddf07c48c~mv2.png/v1/fill/w_400,h_400,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ReadNationLogo.png',
-    bio: 'Details Coming Soon',
-  },
-  {
-    name: 'THOMAS LIU',
-    role: 'Debate Outreach Coordinator',
-    imageUrl:
-      'https://static.wixstatic.com/media/dcd8be_3f41b3395930481fa93d126ddf07c48c~mv2.png/v1/fill/w_400,h_400,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ReadNationLogo.png',
-    bio: 'Details Coming Soon',
-  },
-    {
     name: 'TIFFANY QI',
     role: 'Debate Outreach Coordinator',
     imageUrl:
       'https://static.wixstatic.com/media/dcd8be_3f41b3395930481fa93d126ddf07c48c~mv2.png/v1/fill/w_400,h_400,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ReadNationLogo.png',
     bio: 'Details Coming Soon',
   },
-    {
+  {
     name: 'ZACHARY YAU',
     role: 'Debate Outreach Coordinator',
     imageUrl:
@@ -71,41 +52,41 @@ export default function AboutPage() {
 
   return (
     <main className="isolate">
-        <Header />
-    {/* Team section */}
-            <div className="bg-white py-24 sm:py-32">
-            <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                <div className="mx-auto max-w-2xl sm:text-center">
-                <h2 className="text-4xl font-semibold tracking-tight text-balance text-sky-500 sm:text-5xl">
-                    Leadership
-                </h2>
-                <p className="mt-6 text-lg/8 text-gray-600">
-                    Meet the current leaders of ReadNation.
-                </p>
+      <Header />
+      {/* Team section */}
+      <div className="bg-white py-24 sm:py-32">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto max-w-2xl sm:text-center">
+            <h2 className="text-4xl font-semibold tracking-tight text-balance text-sky-500 sm:text-5xl">
+              Leadership
+            </h2>
+            <p className="mt-6 text-lg/8 text-gray-600">
+              Meet the current leaders of ReadNation.
+            </p>
+          </div>
+          <ul
+            role="list"
+            className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-6 gap-y-20 sm:grid-cols-2 lg:max-w-4xl lg:gap-x-8 xl:max-w-none"
+          >
+            {people.map((person) => (
+              <li key={person.name} className="flex flex-col gap-6 xl:flex-row">
+                <img
+                  alt=""
+                  src={person.imageUrl}
+                  className="aspect-4/5 w-52 flex-none rounded-2xl object-cover outline-1 -outline-offset-1 outline-black/5"
+                />
+                <div className="flex-auto">
+                  <h3 className="text-lg/8 font-semibold tracking-tight text-gray-900">{person.name}</h3>
+                  <p className="text-base/7 text-gray-600">{person.role}</p>
+                  <p className="mt-6 text-base/7 text-gray-600">{person.bio}</p>
                 </div>
-                <ul
-                role="list"
-                className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-6 gap-y-20 sm:grid-cols-2 lg:max-w-4xl lg:gap-x-8 xl:max-w-none"
-                >
-                {people.map((person) => (
-                    <li key={person.name} className="flex flex-col gap-6 xl:flex-row">
-                    <img
-                        alt=""
-                        src={person.imageUrl}
-                        className="aspect-4/5 w-52 flex-none rounded-2xl object-cover outline-1 -outline-offset-1 outline-black/5"
-                    />
-                    <div className="flex-auto">
-                        <h3 className="text-lg/8 font-semibold tracking-tight text-gray-900">{person.name}</h3>
-                        <p className="text-base/7 text-gray-600">{person.role}</p>
-                        <p className="mt-6 text-base/7 text-gray-600">{person.bio}</p>
-                    </div>
-                    </li>
-                ))}
-                </ul>
-            </div>
+              </li>
+            ))}
+          </ul>
+        </div>
 
-            <Footer />
-            </div>
-          </main>
-    )
+        <Footer />
+      </div>
+    </main>
+  )
 }
