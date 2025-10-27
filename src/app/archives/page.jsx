@@ -85,7 +85,7 @@ export default function maasaiPage() {
           <ArchiveVideo />
 
         </div>
-        <div class="grid grid-cols-4 content-center mx-8 gap-x-8 gap-y-4">
+        <div class="grid grid-cols-4 sm:grid-cols-2 content-center mx-8 gap-x-8 gap-y-4">
           <div>
             <img class="aspect-3/2 w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" src="/photos/ReadNationEvent_IMG_1745.jpg" />
           </div>
@@ -99,7 +99,7 @@ export default function maasaiPage() {
             <img class="aspect-3/2 w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" src="/photos/ReadNationEvent_IMG_1788.jpg" />
           </div>
           </div>
-        <div class="grid grid-cols-4 content-center mx-8 gap-x-8 gap-y-4">
+        <div class="grid grid-cols-4 sm:grid-cols-2 content-center mx-8 gap-x-8 gap-y-4">
           <div>
             <img class="aspect-2/3 w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" src="/photos/IMG_8144.jpg" />
           </div>
