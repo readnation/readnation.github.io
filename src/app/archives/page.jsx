@@ -85,6 +85,32 @@ export default function maasaiPage() {
             A video from our recent efforts.
           </p>
         </div>
+        <div class="row">
+          <div class="column">
+            <img src="/photos/ReadNationEvent_IMG_1744.jpg" />
+          </div>
+          <div class="column">
+            <img src="/photos/ReadNationEvent_IMG_1745.jpg" />
+          </div>
+          <div class="column">
+            <img src="/photos/ReadNationEvent_IMG_1713.jpg" />
+          </div>
+          <div class="column">
+            <img src="/photos/ReadNationEvent_IMG_1788.jpg" />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="column">
+            <img src="/photos/IMG_8144.jpg" />
+          </div>
+          <div class="column">
+            <img src="/photos/IMG_8145.jpg" />
+          </div>
+          <div class="column">
+            <img src="/photos/IMG_8146.jpg" />
+          </div>
+        </div>
         <Footer />
       </div>
     </main>

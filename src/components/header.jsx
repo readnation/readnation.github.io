@@ -25,7 +25,7 @@ const aboutPageContent = [
   { name: 'Leaders', description: 'We really could not have done this alone', href: '/aboutPage/Leaders', icon: CursorArrowRaysIcon },
 ]
 const archiveContent = [
-  { name: 'Maasai', href: '/archives', description: 'We are expanding our reaches!' },
+  { name: 'Maasai', href: '/archives', description: 'We are expanding our reach!' },
 ]
 
 export default function Header() {
