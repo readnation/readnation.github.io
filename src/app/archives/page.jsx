@@ -101,13 +101,13 @@ export default function maasaiPage() {
           </div>
         <div class="grid grid-cols-1 sm:grid-cols-2 content-center mx-8 gap-x-8 gap-y-4">
           <div>
-            <img class="aspect-2/3 w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" src="/photos/IMG_8144.jpg" />
+            <img class="aspect-2/3 w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" src="/photos/IMG_8146.jpg" />
           </div>
           <div>
             <img class="aspect-2/3 w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" src="/photos/IMG_8145.jpg" />
           </div>
           <div>
-            <img class="aspect-2/3 w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" src="/photos/IMG_8146.jpg" />
+            <img class="aspect-2/3 w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" src="/photos/IMG_8144.jpg" />
           </div>
         </div>
         <Footer />
