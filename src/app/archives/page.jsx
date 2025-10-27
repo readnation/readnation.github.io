@@ -90,27 +90,23 @@ export default function maasaiPage() {
             <img class="aspect-3/2 w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" src="/photos/ReadNationEvent_IMG_1745.jpg" />
           </div>
           <div>
-            <img class="aspect-square w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" src="/photos/ReadNationEvent_IMG_1744.jpg" />
+            <img class="aspect-3/2 w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" src="/photos/ReadNationEvent_IMG_1744.jpg" />
           </div>
-        </div>        
-        <div class="row">
-          <div class="column">
-            <img src="/photos/ReadNationEvent_IMG_1713.jpg" />
+          <div>
+            <img class="aspect-3/2 w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" src="/photos/ReadNationEvent_IMG_1713.jpg" />
           </div>
-          <div class="column">
-            <img src="/photos/ReadNationEvent_IMG_1788.jpg" />
+          <div>
+            <img class="aspect-3/2 w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" src="/photos/ReadNationEvent_IMG_1788.jpg" />
           </div>
-        </div>
 
-        <div class="row">
-          <div class="column">
-            <img src="/photos/IMG_8144.jpg" />
+          <div>
+            <img class="aspect-2/3 w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" src="/photos/IMG_8144.jpg" />
           </div>
-          <div class="column">
-            <img src="/photos/IMG_8145.jpg" />
+          <div>
+            <img class="aspect-2/3 w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" src="/photos/IMG_8145.jpg" />
           </div>
-          <div class="column">
-            <img src="/photos/IMG_8146.jpg" />
+          <div>
+            <img class="aspect-2/3 w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" src="/photos/IMG_8146.jpg" />
           </div>
         </div>
         <Footer />
