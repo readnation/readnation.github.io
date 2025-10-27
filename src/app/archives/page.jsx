@@ -28,15 +28,6 @@ export default function maasaiPage() {
 
               <div className="relative px-6 py-32 sm:py-40 lg:px-8 lg:py-56 lg:pr-0">
                 <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
-                  <div className="hidden sm:mb-10 sm:flex">
-                    <div className="relative rounded-full px-3 py-1 text-sm/6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                      Learn more about this initiative {' '}
-                      <a href="https://www.humanculture.org/readnation" className="font-semibold whitespace-nowrap text-indigo-600">
-                        <span aria-hidden="true" className="absolute inset-0" />
-                        here <span aria-hidden="true">&rarr;</span>
-                      </a>
-                    </div>
-                  </div>
                   <h1 className="text-5xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-7xl">
                     Maasai Language Education
                   </h1>
@@ -47,6 +38,15 @@ export default function maasaiPage() {
                   <p className="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">
                     Our student volunteers will develop teaching materials and fundraise to support educational and technological needs. They also plan to provide live tutoring to local teachers and children in remote areas.
                   </p>
+                  <div className="hidden sm:mb-10 sm:flex">
+                    <div className="relative rounded-full px-3 py-1 text-sm/6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+                      Learn more about this initiative {' '}
+                      <a href="https://www.humanculture.org/readnation" className="font-semibold whitespace-nowrap text-indigo-600">
+                        <span aria-hidden="true" className="absolute inset-0" />
+                        here <span aria-hidden="true">&rarr;</span>
+                      </a>
+                    </div>
+                  </div>
                   {/* <div className="mt-10 flex items-center gap-x-6">
                   <a
                     href="#"
@@ -62,13 +62,13 @@ export default function maasaiPage() {
               </div>
             </div>
           </div>
-          <div className="bg-gray-50 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+          {/* <div className="bg-gray-50 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
             <img
               alt=""
               src="https://static.wixstatic.com/media/dcd8be_df98b43604fb4f33b2ec77ac6e0d18aa~mv2.jpeg/v1/fill/w_1889,h_836,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/dcd8be_df98b43604fb4f33b2ec77ac6e0d18aa~mv2.jpeg"
               className="aspect-3/2 object-cover lg:aspect-auto lg:size-full"
             />
-          </div>
+          </div> */}
           <div className="bg-gray-50 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
             <img
               alt=""
@@ -85,7 +85,7 @@ export default function maasaiPage() {
           <ArchiveVideo />
 
         </div>
-        <div class="grid grid-cols-2 content-center mx-8 gap-x-8 gap-y-4">
+        <div class="grid grid-cols-1 sm:grid-cols-2 content-center mx-8 gap-x-8 gap-y-4">
           <div>
             <img class="aspect-3/2 w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" src="/photos/ReadNationEvent_IMG_1745.jpg" />
           </div>
@@ -99,7 +99,7 @@ export default function maasaiPage() {
             <img class="aspect-3/2 w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" src="/photos/ReadNationEvent_IMG_1788.jpg" />
           </div>
           </div>
-        <div class="grid grid-cols-2 content-center mx-8 gap-x-8 gap-y-4">
+        <div class="grid grid-cols-1 sm:grid-cols-2 content-center mx-8 gap-x-8 gap-y-4">
           <div>
             <img class="aspect-2/3 w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" src="/photos/IMG_8144.jpg" />
           </div>
