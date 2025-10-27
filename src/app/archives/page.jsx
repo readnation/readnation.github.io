@@ -79,19 +79,21 @@ export default function maasaiPage() {
         </div>
 
         <div className="mx-auto items-center justify-center p-2">
-          <ArchiveVideo />
           <p className="m-auto text-center text-sm font-medium text-pretty text-gray-500 pt-6 sm:text-lg">
-
-            A video from our recent efforts.
+            Learn more about the Maasai! A video from our recent call.
           </p>
+          <ArchiveVideo />
+
         </div>
+        <div class="grid grid-cols-3 gap-x-8 gap-y-4">
+          <div>
+            <img class="aspect-3/2 w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" src="/photos/ReadNationEvent_IMG_1745.jpg" />
+          </div>
+          <div>
+            <img class="aspect-square w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" src="/photos/ReadNationEvent_IMG_1744.jpg" />
+          </div>
+        </div>        
         <div class="row">
-          <div class="column">
-            <img src="/photos/ReadNationEvent_IMG_1744.jpg" />
-          </div>
-          <div class="column">
-            <img src="/photos/ReadNationEvent_IMG_1745.jpg" />
-          </div>
           <div class="column">
             <img src="/photos/ReadNationEvent_IMG_1713.jpg" />
           </div>
