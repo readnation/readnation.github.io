@@ -12,7 +12,7 @@ const people = [
     name: 'KAITLYN YAU',
     role: 'Chief Executive Officer (CEO)',
     imageUrl:
-      '/photos/ReadNationLogo.png',
+      '/photos/Profile_KaitlynYau.jpg',
     bio: 'Kaitlyn is currently a junior at Bronx Science. She has experience in robotics and debate, and has been an active volunteer of Read Nation since 6th grade. She hopes to pursue a career in biology and medicine, and is an active member of her school\'s HOSA club. She has participated in several academic pre-med programs such as the International Young Researchers\' Conference hosted by Columbia University, and the 2024 Global Health Leaders Conference at Johns Hopkins University. Her research experience includes studying shockwave therapy and investigating lifespan and microbial interactions, and she has also wrote and published a paper on advanced treatment for meniscus injuries.',
   },
   {
@@ -57,7 +57,16 @@ const people = [
       '/photos/Profile_TiffanyQi.png',
     bio: 'Tiffany Qi is currently a sophomore at Herricks High School. She is interested in various topics like art, fashion, and business. She attends many school clubs and landed a board position in a non-profit prioritizing kids education. This year she will compete in DECA states individually in hopes of winning. Tiffany also loves to play badminton and games. She focuses on math as one of her handy subjects. Later on, Tiffany wishes to find occupation in business or medicine.',
   },
+  {
+    name: 'ALEX PENG',
+    role: 'Team Leader',
+    imageUrl:
+      '/photos/Profile_AlexPeng.jpg',
+    bio: 'My name is Alex Peng, and I am a sophomore attending Stuyvesant High School. I enjoy playing tennis and spending time with friends. I am interested in pursuing a career in healthcare. I enjoy teaching at Read Nation, where I can help younger students grow.',
+  },
 ]
+
+
 
 export default function AboutPage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
