@@ -26,21 +26,21 @@ const people = [
     name: 'CHLOE DENG',
     role: 'Debate Outreach Coordinator',
     imageUrl:
-      '/photos/ReadNationLogo.png',
+      '/photos/Profile_ChloeDeng.jpg',
     bio: 'Chloe Deng is a sophomore at Hunter College High School. She is a member of the debate team, competing at multiple national-level tournaments, and has won the 2024 Novice National Speech and Debate Season Opener. Currently, she is secretary of the high school team and teaching assistant to middle schoolers. Passionate and determined to help her community, Chloe is active in many other extracurriculars, including badminton team, Mandarin club, and yearbook committee. When at home, she can be found reading, listening to R&B music, and binge-watching Netflix. In the future, she aspires to be a businesswoman that will make a difference in the world.',
   },
   {
     name: 'AIMEE DENG',
     role: 'Debate Outreach Coordinator',
     imageUrl:
-      '/photos/ReadNationLogo.png',
+      '/photos/Profile_AimeeDeng.jpg',
     bio: 'Aimee Deng is a freshman at Bronx Science who loves being involved both in and out of school. She’s part of the debate team and enjoys staying active through swimming and tennis. In her free time, Aimee likes listening to music and hanging out with friends. She is also passionate about working with kids and finding ways to give back to her community. In the future, Aimee hopes to pursue a career in business and make a meaningful contribution wherever she goes.',
   },
   {
     name: 'JAYDEN ZHANG',
     role: 'Team Leader',
     imageUrl:
-      '/photos/Profile_JaydenZhang.png',
+      '/photos/Profile_JaydenZhang.jpg',
     bio: 'Jayden Zhang is a junior attending Bronx Science. He competes in VEX V5 robotics, where he specializes in the design and manufacture of bespoke plastic components using CNC machinery. He is also a leader of an ARC rocketry team, where he headed the development of fused-sensor based active aerodynamic control elements to maximize competition performance. He has also worked to adjust the rocketry team\'s procedures to provide more growth opportunities to newer members. He enjoys working with 3D printers and drones outside of school, and he wishes to pursue a career in Aerospace Engineering.',
   },
   {
@@ -54,7 +54,7 @@ const people = [
     name: 'TIFFANY QI',
     role: 'Debate Outreach Coordinator',
     imageUrl:
-      '/photos/ReadNationLogo.png',
+      '/photos/Profile_TiffanyQi.png',
     bio: 'Tiffany Qi is currently a sophomore at Herricks High School. She is interested in various topics like art, fashion, and business. She attends many school clubs and landed a board position in a non-profit prioritizing kids education. This year she will compete in DECA states individually in hopes of winning. Tiffany also loves to play badminton and games. She focuses on math as one of her handy subjects. Later on, Tiffany wishes to find occupation in business or medicine.',
   },
 ]

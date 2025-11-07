@@ -76,7 +76,7 @@ const people = [
     role: 'Founder/Outreach Director',
     imageUrl:
       'https://static.wixstatic.com/media/dcd8be_77ff4bca1da34c34ad08c634a7bd5208~mv2.jpeg/v1/crop/x_18,y_0,w_252,h_252/fill/w_353,h_353,al_c,lg_1,q_80,enc_avif,quality_auto/daniel.jpeg',
-    bio: 'Daniel Lin attends Early Scholars Speech & Debate where he is one of the debate club&apos;s top debaters. A natural leader, Daniel was President of his elementary school&apos;s Student Council, and is currently captain of the Coding Club. While Daniel plays basketball and Minecraft in his leisure time, his favorite thing to do is read a good book. So if you&apos;re ever looking to discuss a book, he&apos;s the person to see. Daniel also loves math and music, and plays both the piano and the violin.  He takes pride in being well-articulated, enjoys lively debate and politics, and aspires to a future career as a lawyer.',
+    bio: 'Daniel Lin is a senior at John F. Kennedy High School. His main interests include biomedicine and public policy. As Model United Nations club president and co-founder, he has curated school-wide fundraising events and participated in the NHSMUN conference. On top of science research at Columbia University last summer, Daniel also spent time volunteering at Mount Sinai West. His interests include basketball, photography, and classical music.',
   },
       {
     name: 'JAYDEN CHEN',
