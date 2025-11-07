@@ -19,7 +19,7 @@ const people = [
     name: 'ZACHARY YAU',
     role: 'Director of Robotics Outreach',
     imageUrl:
-      '/photos/ReadNationLogo.png',
+      '/photos/Profile_ZacharyYau.jpg',
     bio: 'Zachary Yau attends Saint Francis Prep, where he attends many clubs such as e-sports and science Olympiad. He is also the builder of his team 62880B in VEX Robotics and made it to the world championships 3 times. In his free time, he likes to hang out with friends, enjoying their company. Zachary is interested in sports, astrology, anatomy, and history. in the future, he hopes to be in the medical field like his father.',
   },
   {
