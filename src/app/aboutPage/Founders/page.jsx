@@ -13,7 +13,7 @@ const people = [
     role: 'Founder/Chief Administrative Officer',
     imageUrl:
       'https://static.wixstatic.com/media/dcd8be_ab048629c2714d0486b4d4273b5056bd~mv2.jpg/v1/crop/x_0,y_360,w_2160,h_2160/fill/w_400,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Samantha.jpg',
-    bio: "Samantha Tan is a high-achieving senior passionate about healthcare and robotics. As the captain and head of operations on her school's FIRST Robotics team (Techknights 334), she has mentored her peers and exposed hundreds of students in underserved communities to STEM. She has also raised thousands of dollars for her team through grant writing, sponsorships, and fundraising events. She also shadows healthcare workers at an allergy clinic. Outside of academics, she loves to crochet, draw, and read.",
+    bio: "Samantha Tan is a high-achieving senior passionate about business and robotics. As the captain and head of operations on her school's FIRST Robotics team (Techknights 334), she has mentored her peers and exposed hundreds of students in underserved communities to STEM. She has also raised thousands of dollars for her team through grant writing, sponsorships, and fundraising events. She also shadows healthcare workers at an allergy clinic. Outside of academics, she loves to crochet, draw, and read.",
   },
   {
     name: 'DANIEL LIN',
