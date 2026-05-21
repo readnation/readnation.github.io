@@ -33,8 +33,8 @@ const people = [
     name: 'JAYDEN CHAN',
     role: 'Director of Chess Education',
     imageUrl:
-      'https://static.wixstatic.com/media/3b897c_f73a00bcfb09417f8d559733c1f0bb57~mv2.jpg/v1/crop/x_19,y_0,w_634,h_634/fill/w_400,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Jayden%20Chan_edited_edited.jpg',
-    bio: 'My name is Jayden Chan, and I am a sophomore at the Bronx High School of Science. I practice Brazilian Jiu-Jitsu, Muay Thai, basketball, saxophone, and the guitar. I enjoy playing chess, sharing my expertise and teaching others. I hope to pursue a career in chemical engineering in the future.',
+      '/photos/Profile_JaydenChan.jpg',
+    bio: 'Jayden is a junior at The Bronx High School of Science and a member of the Machine Learning Club, Chemistry Club, and Chess Club (President in his senior year). He earned 2nd Place School (Championship Section) at the NY State High School Championships, 2nd Place Scholastic Team at the World Amateur Team Championship, 3rd Place Individual (U2100) at the NY State Championship, and 3rd Place Team (U1900) at the National H.S. Championship. Beyond competition, Jayden has been teaching chess at a local church and Read Nation since 2024. This summer, he will work as an Artificial Intelligence Developer Intern at a fintech firm. In the future, he plans to major in engineering.',
   }, 
   {
     name: 'AIMEE DENG',
