@@ -64,6 +64,13 @@ const people = [
       '/photos/Profile_AlexPeng.jpg',
     bio: 'My name is Alex Peng, and I am a sophomore attending Stuyvesant High School. I enjoy playing tennis and spending time with friends. I am interested in pursuing a career in healthcare. I enjoy teaching at Read Nation, where I can help younger students grow.',
   },
+  {
+    name: 'EMILY CHEN',
+    role: 'Team Leader',
+    imageUrl:
+      '/photos/Profile_EmilyChen.jpg',
+    bio: 'Emily Chen is currently a junior attending Herricks High School. She participates in various clubs such as, Dance Club, DECA, and Asian American Cultural Club. She intends to study and pursue an occupation in the business field. So far, she has been an active participant in Virtual Enterprise and has competed and won first nationally for the Financial Literacy Competition. In her free time, she enjoys playing badminton, video editing, and dancing. Outside of school, she is the current director of a student-led initiative known as Big Appletunities–a group that posts extracurricular opportunities for high school students.',
+  },
 ]
 
 
